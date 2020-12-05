@@ -273,7 +273,7 @@ li{
     display: flex;
     cursor: pointer;
     background-color: rgb(254, 254, 254, 1);
-    transition: all .4s ease 0s;
+    transition: all .1s;
     margin: 5px;
 
 }
@@ -398,7 +398,7 @@ li{
     /* height: 100%;
     width: 100%; */
     border-radius: 4px;
-    transition: all 200ms;
+    transition: all 100ms;
     overflow: hidden;
 
     /* background-size: cover;
