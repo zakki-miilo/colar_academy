@@ -51,17 +51,29 @@ li a {
 
 li a button {
   display: inline-block;
+
 }
 
 button {
   font-size: larger;
   border: none;
-  background-color: rgba(255, 255, 255, 0);
+  /* background-color: rgba(255, 255, 255, 0); */
   cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.235);
+  padding: 7px 10px;
+  background: rgba(50, 49, 49, 0.379);
+  color: #ffffff;
+  transition: all .3s;
+  border-radius: 50px;
+
+}
+
+button:hover {
+    transform: translateY(-3px) scale(1.0);
 }
 
 li {
-  padding-right: 16px;
+  padding-right: 24px;
   list-style-type: none;
 }
 
@@ -69,15 +81,15 @@ li {
   content: "";
   display: block;
   width: 0;
-  height: 4px;
-  background: rgb(0, 0, 0);
+  height: 5px;
+  background: #0ac0ed;
   transition: width 0.3s;
 }
 
 .underlink-effect:hover::after {
   width: 100%;
   transition: width 0.7s;
-  background: #0088a9;
+  background: #0ac0ed;
 }
 
 /* .nav_links li a {
@@ -115,12 +127,12 @@ li {
 
 /* cover */
 .start_here {
-  border-radius: 25px;
+  border-radius: 50px;
   border: none;
   color: white;
   background-color: rgb(44, 41, 52, 1);
-  padding: 8px 0;
-  font-size: 1.4rem;
+  padding: 16px 0;
+  font-size: 2.4rem;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -456,12 +468,13 @@ li {
 
 .video figcaption {
   font-weight: 450;
-  font-size: larger;
-  padding-bottom: 8px;
+  font-size: 2.2rem;
+  padding-bottom: 40px;
 }
 
 .video aside {
   font-weight: 350;
+ padding-bottom: 40px;
 }
 
 .video-side figcaption {
